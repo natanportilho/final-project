@@ -41,6 +41,16 @@ class ViewController: UIViewController, UITableViewDelegate {
     }
 
     
+<<<<<<< HEAD
+   
+    // OnClick opens new viewController
+    @IBAction func onClick(sender: AnyObject) {
+    
+        self.performSegueWithIdentifier("addMedicine", sender: self)
+        
+    }
+=======
+>>>>>>> parent of ff7f976... Merge remote-tracking branch 'origin/master'
     
     
 }
