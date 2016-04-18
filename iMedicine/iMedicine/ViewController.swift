@@ -39,7 +39,6 @@ class ViewController: UIViewController, UITableViewDelegate {
         
         print("ok")
     }
-    
 
     
     
