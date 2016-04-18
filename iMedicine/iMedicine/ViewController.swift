@@ -1,10 +1,4 @@
-//
-//// OnClick opens new viewController
-//@IBAction func onClick(sender: AnyObject) {
-//    
-//    self.performSegueWithIdentifier("addMedicine", sender: self)
-//    
-//}
+
 
 import UIKit
 //var med = Medicine()
@@ -45,6 +39,8 @@ class ViewController: UIViewController, UITableViewDelegate {
         
         print("ok")
     }
+    
+
     
     
     
