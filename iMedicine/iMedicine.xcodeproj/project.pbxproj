@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9746CA41CC5645A0085FAA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9746CA31CC5645A0085FAA9 /* AppDelegate.swift */; };
+		D9746CA61CC5645A0085FAA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9746CA51CC5645A0085FAA9 /* ViewController.swift */; };
+		D9746CA91CC5645A0085FAA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9746CA71CC5645A0085FAA9 /* Main.storyboard */; };
+		D9746CAC1CC5645A0085FAA9 /* iMedicine.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D9746CAA1CC5645A0085FAA9 /* iMedicine.xcdatamodeld */; };
+		D9746CAE1CC5645A0085FAA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9746CAD1CC5645A0085FAA9 /* Assets.xcassets */; };
+		D9746CB11CC5645A0085FAA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9746CAF1CC5645A0085FAA9 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D9746CA01CC5645A0085FAA9 /* iMedicine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMedicine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9746CA31CC5645A0085FAA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D9746CA51CC5645A0085FAA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D9746CA81CC5645A0085FAA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D9746CAB1CC5645A0085FAA9 /* iMedicine.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iMedicine.xcdatamodel; sourceTree = "<group>"; };
+		D9746CAD1CC5645A0085FAA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9746CB01CC5645A0085FAA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D9746CB21CC5645A0085FAA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9746C9D1CC5645A0085FAA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9746C971CC5645A0085FAA9 = {
+			isa = PBXGroup;
+			children = (
+				D9746CA21CC5645A0085FAA9 /* iMedicine */,
+				D9746CA11CC5645A0085FAA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9746CA11CC5645A0085FAA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9746CA01CC5645A0085FAA9 /* iMedicine.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9746CA21CC5645A0085FAA9 /* iMedicine */ = {
+			isa = PBXGroup;
+			children = (
+				D9746CA31CC5645A0085FAA9 /* AppDelegate.swift */,
+				D9746CA51CC5645A0085FAA9 /* ViewController.swift */,
+				D9746CA71CC5645A0085FAA9 /* Main.storyboard */,
+				D9746CAD1CC5645A0085FAA9 /* Assets.xcassets */,
+				D9746CAF1CC5645A0085FAA9 /* LaunchScreen.storyboard */,
+				D9746CB21CC5645A0085FAA9 /* Info.plist */,
+				D9746CAA1CC5645A0085FAA9 /* iMedicine.xcdatamodeld */,
+			);
+			path = iMedicine;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9746C9F1CC5645A0085FAA9 /* iMedicine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9746CB51CC5645A0085FAA9 /* Build configuration list for PBXNativeTarget "iMedicine" */;
+			buildPhases = (
+				D9746C9C1CC5645A0085FAA9 /* Sources */,
+				D9746C9D1CC5645A0085FAA9 /* Frameworks */,
+				D9746C9E1CC5645A0085FAA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iMedicine;
+			productName = iMedicine;
+			productReference = D9746CA01CC5645A0085FAA9 /* iMedicine.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9746C981CC5645A0085FAA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Natan Portilho";
+				TargetAttributes = {
+					D9746C9F1CC5645A0085FAA9 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = Q8CQWWT22A;
+					};
+				};
+			};
+			buildConfigurationList = D9746C9B1CC5645A0085FAA9 /* Build configuration list for PBXProject "iMedicine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9746C971CC5645A0085FAA9;
+			productRefGroup = D9746CA11CC5645A0085FAA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9746C9F1CC5645A0085FAA9 /* iMedicine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9746C9E1CC5645A0085FAA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9746CB11CC5645A0085FAA9 /* LaunchScreen.storyboard in Resources */,
+				D9746CAE1CC5645A0085FAA9 /* Assets.xcassets in Resources */,
+				D9746CA91CC5645A0085FAA9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9746C9C1CC5645A0085FAA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9746CA61CC5645A0085FAA9 /* ViewController.swift in Sources */,
+				D9746CA41CC5645A0085FAA9 /* AppDelegate.swift in Sources */,
+				D9746CAC1CC5645A0085FAA9 /* iMedicine.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D9746CA71CC5645A0085FAA9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9746CA81CC5645A0085FAA9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D9746CAF1CC5645A0085FAA9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9746CB01CC5645A0085FAA9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9746CB31CC5645A0085FAA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D9746CB41CC5645A0085FAA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9746CB61CC5645A0085FAA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iMedicine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = natan.portilho.iMedicine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D9746CB71CC5645A0085FAA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iMedicine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = natan.portilho.iMedicine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9746C9B1CC5645A0085FAA9 /* Build configuration list for PBXProject "iMedicine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9746CB31CC5645A0085FAA9 /* Debug */,
+				D9746CB41CC5645A0085FAA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9746CB51CC5645A0085FAA9 /* Build configuration list for PBXNativeTarget "iMedicine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9746CB61CC5645A0085FAA9 /* Debug */,
+				D9746CB71CC5645A0085FAA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D9746CAA1CC5645A0085FAA9 /* iMedicine.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D9746CAB1CC5645A0085FAA9 /* iMedicine.xcdatamodel */,
+			);
+			currentVersion = D9746CAB1CC5645A0085FAA9 /* iMedicine.xcdatamodel */;
+			path = iMedicine.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D9746C981CC5645A0085FAA9 /* Project object */;
+}
