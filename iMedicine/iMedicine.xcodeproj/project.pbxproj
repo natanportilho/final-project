@@ -7,27 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D92FE62C1CC5780200B77266 /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = D92FE62B1CC5780200B77266 /* info.png */; };
+		64810C3A1CC95A12003F24E5 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64810C391CC95A12003F24E5 /* WebViewController.swift */; };
+		64FCAA471CC6C4A400D12161 /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = 64FCAA461CC6C4A400D12161 /* info.png */; };
+		64FCAA491CC6CDCD00D12161 /* Medicine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FCAA481CC6CDCD00D12161 /* Medicine.swift */; };
+		64FCAA4B1CC6D52200D12161 /* MedicineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FCAA4A1CC6D52200D12161 /* MedicineTableViewCell.swift */; };
+		64FCAA4F1CC6D7CC00D12161 /* MedicineTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FCAA4E1CC6D7CC00D12161 /* MedicineTableViewController.swift */; };
 		D9746CA41CC5645A0085FAA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9746CA31CC5645A0085FAA9 /* AppDelegate.swift */; };
-		D9746CA61CC5645A0085FAA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9746CA51CC5645A0085FAA9 /* ViewController.swift */; };
+		D9746CA61CC5645A0085FAA9 /* MedicineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9746CA51CC5645A0085FAA9 /* MedicineViewController.swift */; };
 		D9746CA91CC5645A0085FAA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9746CA71CC5645A0085FAA9 /* Main.storyboard */; };
 		D9746CAC1CC5645A0085FAA9 /* iMedicine.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D9746CAA1CC5645A0085FAA9 /* iMedicine.xcdatamodeld */; };
 		D9746CAE1CC5645A0085FAA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9746CAD1CC5645A0085FAA9 /* Assets.xcassets */; };
 		D9746CB11CC5645A0085FAA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9746CAF1CC5645A0085FAA9 /* LaunchScreen.storyboard */; };
-		D9746CBB1CC56F9C0085FAA9 /* NewMedicineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9746CBA1CC56F9C0085FAA9 /* NewMedicineViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D92FE62B1CC5780200B77266 /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = info.png; path = ../../../../../Desktop/info.png; sourceTree = "<group>"; };
+		64810C391CC95A12003F24E5 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		64FCAA461CC6C4A400D12161 /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info.png; sourceTree = "<group>"; };
+		64FCAA481CC6CDCD00D12161 /* Medicine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Medicine.swift; sourceTree = "<group>"; };
+		64FCAA4A1CC6D52200D12161 /* MedicineTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedicineTableViewCell.swift; sourceTree = "<group>"; };
+		64FCAA4E1CC6D7CC00D12161 /* MedicineTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MedicineTableViewController.swift; path = ../MedicineTableViewController.swift; sourceTree = "<group>"; };
 		D9746CA01CC5645A0085FAA9 /* iMedicine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMedicine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9746CA31CC5645A0085FAA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D9746CA51CC5645A0085FAA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D9746CA51CC5645A0085FAA9 /* MedicineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicineViewController.swift; sourceTree = "<group>"; };
 		D9746CA81CC5645A0085FAA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D9746CAB1CC5645A0085FAA9 /* iMedicine.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iMedicine.xcdatamodel; sourceTree = "<group>"; };
 		D9746CAD1CC5645A0085FAA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9746CB01CC5645A0085FAA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9746CB21CC5645A0085FAA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D9746CBA1CC56F9C0085FAA9 /* NewMedicineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewMedicineViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,15 +66,18 @@
 		D9746CA21CC5645A0085FAA9 /* iMedicine */ = {
 			isa = PBXGroup;
 			children = (
-				D92FE62B1CC5780200B77266 /* info.png */,
+				64FCAA4E1CC6D7CC00D12161 /* MedicineTableViewController.swift */,
 				D9746CA31CC5645A0085FAA9 /* AppDelegate.swift */,
-				D9746CA51CC5645A0085FAA9 /* ViewController.swift */,
-				D9746CBA1CC56F9C0085FAA9 /* NewMedicineViewController.swift */,
+				D9746CA51CC5645A0085FAA9 /* MedicineViewController.swift */,
 				D9746CA71CC5645A0085FAA9 /* Main.storyboard */,
+				64810C391CC95A12003F24E5 /* WebViewController.swift */,
+				64FCAA4A1CC6D52200D12161 /* MedicineTableViewCell.swift */,
 				D9746CAD1CC5645A0085FAA9 /* Assets.xcassets */,
 				D9746CAF1CC5645A0085FAA9 /* LaunchScreen.storyboard */,
 				D9746CB21CC5645A0085FAA9 /* Info.plist */,
+				64FCAA461CC6C4A400D12161 /* info.png */,
 				D9746CAA1CC5645A0085FAA9 /* iMedicine.xcdatamodeld */,
+				64FCAA481CC6CDCD00D12161 /* Medicine.swift */,
 			);
 			path = iMedicine;
 			sourceTree = "<group>";
@@ -105,7 +114,7 @@
 				TargetAttributes = {
 					D9746C9F1CC5645A0085FAA9 = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = Q8CQWWT22A;
+						DevelopmentTeam = H9428K6D84;
 					};
 				};
 			};
@@ -135,7 +144,7 @@
 				D9746CB11CC5645A0085FAA9 /* LaunchScreen.storyboard in Resources */,
 				D9746CAE1CC5645A0085FAA9 /* Assets.xcassets in Resources */,
 				D9746CA91CC5645A0085FAA9 /* Main.storyboard in Resources */,
-				D92FE62C1CC5780200B77266 /* info.png in Resources */,
+				64FCAA471CC6C4A400D12161 /* info.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,9 +155,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9746CA61CC5645A0085FAA9 /* ViewController.swift in Sources */,
+				D9746CA61CC5645A0085FAA9 /* MedicineViewController.swift in Sources */,
+				64FCAA4F1CC6D7CC00D12161 /* MedicineTableViewController.swift in Sources */,
+				64FCAA4B1CC6D52200D12161 /* MedicineTableViewCell.swift in Sources */,
 				D9746CA41CC5645A0085FAA9 /* AppDelegate.swift in Sources */,
-				D9746CBB1CC56F9C0085FAA9 /* NewMedicineViewController.swift in Sources */,
+				64810C3A1CC95A12003F24E5 /* WebViewController.swift in Sources */,
+				64FCAA491CC6CDCD00D12161 /* Medicine.swift in Sources */,
 				D9746CAC1CC5645A0085FAA9 /* iMedicine.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,10 +274,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = iMedicine/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = natan.portilho.iMedicine;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -273,10 +288,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = iMedicine/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = natan.portilho.iMedicine;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
